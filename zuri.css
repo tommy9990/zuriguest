@@ -1,0 +1,53 @@
+body, html {height: 100%;}
+/* Style the header */
+header {width: auto; height: auto;
+
+  background-color: #eb9723;
+  padding: 10px;
+  text-align: center;
+  border: 15px;
+  font-size: 15px;
+  color: white;
+  text-decoration-color: white;
+}
+
+/* The navigation bar */
+.navbar a{
+  overflow: hidden;
+  background-color: #eb9723;
+  position: center; /* Set the navbar to fixed position */
+  top: 100%; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float:  middle;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #736357;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: auto; /* Add a top margin to avoid content overlay */
+}
+nav{float: auto;
+width: auto;
+height: auto;}
+
+/* Style the footer */
+footer {
+  height: auto; width: auto;
+  background-color: #736357;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

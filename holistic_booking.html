@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="holistic_booking.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="fixed-header">
+      <div class="container">
+       <header>
+       <img src="logo_zuri.png" alt="" height="auto"width="auto">
+       <div class="navbar">
+      <a href="https://www.zurizanzibar.com/about">About</a>
+      <a href="https://www.zurizanzibar.com/gallery-list">Gallery</a>
+      <a href="https://www.zurizanzibar.com/contacts">Contacts</a>
+    </div>
+
+    <div class="main">
+    </div>
+    </header>
+  
+     <div class="container">
+       <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="rnumber">Room Number</label>
+    <input type="text" id="rnumber" name="roomnumber" placeholder="Your room number..">
+
+    <label for="Treatment">Treatment</label>
+    <select id="Treatment" name="Treatment">
+      <option value="OFPrivate Session"> Outdoor Fitness Private Session 45min-USD 50</option>
+      <option value="OFGroup Class"> Outdoor Fitness Group Class/min4ppl 45min-USD 20</option>
+      <option value="DPPrivate Session"> Dynamic Pilates Private Session 45min-USD 50</option>
+      <option value="DPGroup Class"> Dynamic Pilates Group Class/min4ppl 45min-USD 20</option>
+      <option value="MPrivate Session"> Meditation Private Session 45min-USD 60</option>
+      <option value="MGroup Class"> Meditation Group Class/min4ppl 45min-USD 20</option>
+      <option value="YPrivate Session"> Yoga Private Session 75min-USD 70</option>
+      <option value="YGroup Class"> Yoga Group Class/min4ppl 75min-USD 30</option>
+      <option value="YSUPPrivate Session"> SUP Yoga Private Session 60min-USD 70</option>
+      <option value="YSUOGroup Class"> SUP Yoga Group Class/min4ppl 45min-USD 40</option>
+      <option value="LCPrivate Session"> Life Coaching Private Session 45min-USD 60</option>
+      <option value="NCPrivate Session"> Nutritional Coaching Private Session 45min-USD 60</option>
+    </select>
+
+    <label for="specialrequest">Special Request</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+
+  </body>
+</html>
